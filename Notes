@@ -1,0 +1,33 @@
+
+
+DATABASE -> server
+    host/ip
+    username
+    password
+
+
+    Database table
+        KUEBIKO_STUDENTS
+
+        UNIQUE INDENTIFIER(PRIMARY KEY)
+
+        PK -> COLUMNS
+
+
+            SSN FIRSTNAME LASTNAME EMAIL
+            123 JOHN        COOPER  JOHN.COOPER@GMAIL.COM
+            234 SIRI        PARKER  SIRI123@YAHOO.COM
+            487 RAM         PRASAD  PRASAD.RAM@GMAIL.COM
+
+
+// coding
+     src
+        main
+            java
+                base-package
+                    util*
+                    controller/web
+                    service/dao/model/repos
+
+
+// Controller -> Service ->DAO ->Repository
